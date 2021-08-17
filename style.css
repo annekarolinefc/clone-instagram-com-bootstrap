@@ -1,14 +1,21 @@
-a.icon-link-menu {
+.icon-link-menu,
+.icon-link-post {
     color: black;
 }
 
-.top-bar-profile-content {
+.img-dimension {
+    transform: scale(1.5);
+    width: 100%;
+}
+
+.top-bar-profile-content,
+.like-profile-photo {
     width: 1.5em;
     height: 1.5em;
     position: relative;
 }
 
-story-profile-photo {
+.topbar-profile-photo {
     width: 1.5em;
     height: 1.5em;
     position: relative;
@@ -17,5 +24,15 @@ story-profile-photo {
 .stories-profile-photo {
     width: 56px;
     height: 56px;
+    position: relative;
+}
+
+.stories-username {
+    font-size: small;
+}
+
+.post-profile-photo {
+    width: 46px;
+    height: 46px;
     position: relative;
 }
